@@ -1,0 +1,9 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+<form>
+    <div class="display-5">Upload PDF</div>
+    <label for="pdf-upload">File</label>
+    <input type="file" name="pdf-upload">
+    <button type="submit">Upload!</button>
+</form>
